@@ -1,0 +1,32 @@
+.feedbackcontainer {
+  display: flex;
+  margin: 0;
+  padding: 0 20px 0 20px;
+}
+.feedbackoptions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #f3f6f9;
+  box-shadow: 0 0 10px #c7d0d9;
+}
+.feedbackbtn {
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  background-color: #f3f6f9;
+  width: 100%;
+  height: 100vh;
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.feedbackbtn:hover {
+  background-color: #4267b2;
+  color: white;
+}
